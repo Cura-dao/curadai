@@ -1,0 +1,14 @@
+{
+  "name": "curaDAI",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/MickdeGraaf/curaDAI.git",
+  "author": "Mick de Graaf <mick@mickdegraaf.nl>",
+  "license": "MIT",
+  "scripts": {
+    "remix": "remixd --remix-ide https://remix.ethereum.org -s ."
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0"
+  }
+}
