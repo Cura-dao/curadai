@@ -30,7 +30,7 @@ The difference between issueing (1.78) and destroying (1.75), gives the asset a 
 
 ## Local install (Linux)
 
-> Dependencies: **[NodeJS](https://nodejs.org/en/) | [Truffle](https://www.npmjs.com/package/truffle)**
+> Dependencies: **[Git](https://git-scm.com/downloads)| [NodeJS](https://nodejs.org/en/) | | [Truffle](https://www.npmjs.com/package/truffle)**
 
 * Download the repository
 ```
