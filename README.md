@@ -28,4 +28,26 @@ function pullSpread() external returns(uint256)
 ```
 The difference between issueing (1.78) and destroying (1.75), gives the asset a spread of **≈ 1.685%**, which is funnelled to the beneficiary, which in this utility is the [CuraDAO contract](https://etherscan.io/address/0x0b93ba560283350d4216f29dc57e15df38d0eace) to proactively reinvest back into the island's economy. 
 
+## Local install (Linux)
 
+> Dependencies: **[NodeJS](https://nodejs.org/en/) | [Truffle](https://www.npmjs.com/package/truffle)**
+
+* Download the repository
+```
+git clone https://github.com/Cura-dao/curadai
+```
+
+* Enter directory & install dependencies
+``` 
+cd curadai && npm install 
+```
+
+* Compile contracts 
+```
+truffle compile
+```
+
+* Deploy contracts (local)
+```
+truffle deploy
+```
