@@ -14,7 +14,7 @@ Solidity repository for the CuraDAI (CURA) token, which is a digital currency th
 ``` 
 function mint(uint256 _underlyingAmount) external returns(uint256)
 ```
-CuraDAI is minted through transferring pre-approved DAI to the contract, the `msg.sender` must have a sufficient balance and allowance in association to the provided amount paramater. In return, DAI is pegged at an issue rate of 1 DAI per 1.78 CURA.
+CuraDAI is minted through transferring pre-approved DAI to the contract, the `msg.sender` must have a sufficient balance and allowance in relation to the provided amount parameter. In return, DAI is pegged at an issue rate of 1 DAI per 1.78 CURA.
 
 ### burn()
 ```
