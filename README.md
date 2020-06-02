@@ -18,12 +18,14 @@ CuraDAI is minted through transferring pre-approved DAI to the contract, the `ms
 
 ### burn()
 ```
-function burn(uint256 _burnAmount) external returns(uint256) 
+function burn(uint256 _burnAmount) external returns(uint256)
 ```
+CuraDAI is burned out of circulation by transferring pre-approved CURA to the contract, the `msg.sender` must have a viable balance and allowance in accordance to the provided amount. CURA is then destroyed at an burn rate of 1 CURA per 1.75 DAI.
 
 ### pullSpread()
 ```
 function pullSpread() external returns(uint256) 
 ```
+The difference between issueing (1.78) and destroying (1.75), gives the asset a spread of **≈ 1.685%**, which is funnelled to the beneficiary, which in this utility is the [CuraDAO contract](https://etherscan.io/address/0x0b93ba560283350d4216f29dc57e15df38d0eace) to proactively reinvest back into the island's economy. 
 
 
